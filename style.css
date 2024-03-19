@@ -1,47 +1,55 @@
-body {
-    background-color: #031E46;
-display: flex;
-align-items: center;
-flex-direction: column;
-background-size: cover;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.imagem {
-    position: absolute;
-    top: 0%;
-    left: 51%;
-    transform: translateX(-50%);
-    width: 400px;
-    height: auto;
+body{
+  background-color: #031e46;
 }
 
-.input-text1 {
-    width: 30%;
-    padding: 15px;
-    border: 1px solid #0e003a;
-    background-color: #0c2247;
-    border-radius: 110px;
-    box-sizing: border-box;
-    margin-left: 35%;
-    margin-right: auto;
-    margin-top: 150px;
+header{
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 20vh;
 }
 
-.botao {
-    width: 90%;
-    padding: 10px;
-    background-color: #b6afaf;
-    border: none;
-    border-radius: 100px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    margin-top: 20%;
-    font-weight: bold;
+main{
+  justify-content: space-evenly;
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: column;
+  align-items: center;
 }
 
-.criar-conta {
-    text-decoration: none;
+.input-text1 { 
+  width: 30%; 
+  padding: 15px;
+  border: 1px solid #0e1352;
+  background-color: #3252b9;
+  color: #ffffff;
+  border-radius: 12px;
 }
 
+.buttons{
+  display: grid;
+  place-items: center;
+  gap: 42px;
+  width: 100vw;
+}
 
+.botao{
+  border-radius: 12px;
+  width: 20%;
+  height: 60px;
+  background-color: #04407F;
+}
 
+.botao2{
+  border-radius: 12px;
+  width: 15%;
+  height: 60px;
+  background-color: #031E46;
+}
