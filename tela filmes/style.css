@@ -1,0 +1,22 @@
+body{
+    background-color: #031e46;
+    background-image: url(./img-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 20vh;
+  }
+
+  .input-text1 {
+    width: 80vw; 
+  padding: 10px;
+  color: #000;
+  border-radius: 12px;
+  align-items: center;
+  }
+  
