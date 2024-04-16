@@ -19,4 +19,31 @@ body{
   border-radius: 12px;
   align-items: center;
   }
-  
+
+  main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    margin: 3rem 5rem;
+  }
+
+  .card{
+    width: 12.5rem;
+    height: 17.900rem;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .card:hover{
+    scale: 1.2;
+    transition: 0.5s;
+  }
